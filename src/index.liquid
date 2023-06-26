@@ -1,0 +1,23 @@
+---
+layout: base.liquid
+---
+<section class="min-h-screen flex flex-col justify-center">
+  <div class="container mx-auto px-4 text-center">
+    <h1 class="text-[5rem] leading-none font-bold text-gray-900">
+      ETA
+    </h1>
+    <p class="text-[2.5rem] text-gray-500">
+      A non-fancy starter project built with <a href="https://www.11ty.dev/">Eleventy</a>, <a href="https://tailwindcss.com/">Tailwind CSS</a> and <a href="https://alpinejs.dev/">Alpine.js</a>.
+    </p>
+    <div class="my-8" x-data="{ count: 0 }">
+      <button x-on:click="count++">Increment</button>
+      <span x-text="count"></span>
+    </div>
+    <p class="text-sm text-gray-500">
+      <span class="font-bold">
+        Repo:
+      </span>
+      <a href="https://github.com/donnyburnside/eta">https://github.com/donnyburnside/eta</a>
+    </p>
+  </div>
+</section>

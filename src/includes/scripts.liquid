@@ -1,0 +1,6 @@
+{% capture js %}
+  {% include "js/main.js" %}
+{% endcapture %}
+<script>
+  {{ js | bundle }}
+</script>

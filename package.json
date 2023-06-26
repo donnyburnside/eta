@@ -1,0 +1,32 @@
+{
+  "name": "eta",
+  "version": "1.0.0",
+  "description": "A non-fancy starter project built with [Eleventy](https://www.11ty.dev/), [Tailwind CSS](https://tailwindcss.com/) and [Alpine.js](https://alpinejs.dev/).",
+  "scripts": {
+    "build": "NODE_ENV=production ELEVENTY_PRODUCTION=true npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "alpinejs": "^3.12.2",
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "esbuild": "^0.18.4",
+    "html-minifier": "^4.0.0",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "terser": "^5.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donnyburnside/eta.git"
+  },
+  "keywords": [
+    "11ty",
+    "tailwind css",
+    "alpine.js"
+  ],
+  "author": "Donny Burnside <hello@donnyburnside.com> (http://www.donnyburnside.com)",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/donnyburnside/eta"
+}

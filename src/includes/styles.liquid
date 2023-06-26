@@ -1,0 +1,6 @@
+{% capture css %}
+  {% include "css/main.css" %}
+{% endcapture %}
+<style>
+  {{ css | postcss }}
+</style>
